@@ -1,0 +1,32 @@
+{
+  "name": "karma-lodash",
+  "version": "0.0.1",
+  "description": "A Karma plugin - adapter for Lodash.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tadejstadler/karma-lodash.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "lodash"
+  ],
+  "author": {
+    "name": "Tadej Štadler",
+    "email": "tadej.stadler@outlook.com"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "karma": "^4.0.1"
+  },
+  "peerDependencies": {
+    "karma": "*"
+  },
+  "engines": {
+      "node": ">= 8"
+  },
+  "license": "MIT"
+}
